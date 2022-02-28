@@ -1,0 +1,306 @@
+/* En-tête */
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+#conteneur
+{
+	width: 100%;
+}
+
+header
+{
+	width: 100%;
+	height: 280px;
+	color: white;
+	background-color: black;
+}
+
+#logo
+{
+	width: 100px;
+	margin: auto;
+}
+
+h1
+{
+	font-size: 3em;
+	color: ;
+}
+h3
+{
+	margin: 0;
+	padding: 0;
+}
+
+header h1, header p, header nav
+{
+	margin: auto;
+}
+
+.icon
+{
+	width: 20px;
+}
+
+#hd
+{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+}
+
+nav ul
+{
+	display: flex;
+	padding: 20px;
+}
+nav	ul li
+{
+	margin-right: 50px;
+	list-style-type: none;
+}
+
+nav
+{
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+nav a
+{
+	text-decoration: none;
+	color: white;
+}
+
+/* Coprs */
+
+#corps
+{
+	margin: auto;
+
+	margin-top: 50px;
+	width: 90%;
+}
+
+.anno
+{
+	display: flex;
+}
+
+.divtext
+{
+	width: 50%;
+	height: 500px;
+}
+
+.divimg
+{
+	width: 50%;
+	height: 500px;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+h2, p
+{
+	font-family: 'Arial Black';
+}
+
+h2
+{
+	text-align: center;
+	margin-top: 150px;
+}
+
+.pdt
+{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.bout
+{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: black;
+	color: white;
+	width: 100px;
+	height: 30px;
+	border-radius: 5px;
+}
+
+img
+{
+	border-radius: 10px;
+}
+
+#formulaire
+{
+	margin: auto;
+}
+
+fieldset
+{
+	padding-left: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+/* Footer */
+
+#logofoot
+{
+	width: 50px;
+}
+
+#ftc
+{
+	position: fixed;
+	bottom: 0;
+}
+
+footer
+{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	height: 150px;
+	color: white;
+	background-color: black;
+}
+
+#coord
+{
+	display: flex;
+}
+
+h3
+{
+	text-align: center;
+}
+
+footer ul
+{
+	list-style-type: none;
+}
+
+#richouf
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#richouf p
+{
+	text-align: center;
+}
+
+#richouf
+{
+	margin: 0;
+	padding: 0;
+}
+
+.liensfoot
+{
+	color: white;
+}
+
+footer div
+{
+	line-height: 30px;
+	margin-right: 30px;
+}
+
+@media all and (max-width: 2200px)
+{
+	#boutcontact
+	{
+		display: none;
+	}
+}
+
+@media all and (max-width: 700px)
+{
+	nav
+	{
+		display: none;
+	}
+
+	#anno1
+	{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	#anno2
+	{
+		display: flex;
+		flex-direction: column;
+	}
+
+	#anno3
+	{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	#anno4
+	{
+		display: flex;
+		flex-direction: column;
+	}
+
+	#anno5
+	{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.divtext, .divimg
+	{
+		width: 100%;
+	}
+
+	footer
+	{
+		display: flex;
+		flex-direction: column;
+	}
+
+	#coord
+	{
+		display: none;
+	}
+
+	#boutcontact
+	{
+		display: flex;
+		margin: auto;
+		margin-bottom: 50px;
+	}
+
+	#formulaire
+	{
+		margin-bottom: 200px;
+	}
+
+	#send
+	{
+		margin-top: 30px;
+	}
+
+	h1
+	{
+		text-align: center;
+	}
+
+	#hp
+	{
+		text-align: center;
+	}
+}
